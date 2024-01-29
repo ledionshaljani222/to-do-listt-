@@ -1,0 +1,48 @@
+.todolist-text{
+    position: absolute;
+    left: 42%;
+    top: 15%;
+    font-size: 40px;
+}
+.container{
+    position: absolute;
+    left: 39%;
+    top: 25%;
+    width: 500px;
+    height: 700px;
+}
+#inputField{
+    width: 300px;
+    height: 30px;
+    border: 2px black solid ;
+    top: 20%;
+}
+
+#inputField:hover{
+    width: 310px;
+    height: 35px;
+    border: 2px black solid ;
+    top: 20%;
+    transition: ease-in 0.5s;
+}
+#addToDo{
+    width: 36px;
+    height: 36px;
+    border: 2px black solid ;
+    top: 20%;
+    background-color: white;
+}
+
+#addToDo:hover{
+    width: 40px;
+    height: 40px;
+    border: 2px black solid ;
+    top: 20%;
+    background-color: white;
+    transition: ease-in 0.5s;
+}
+
+
+body{
+    background-color: gray;
+}
